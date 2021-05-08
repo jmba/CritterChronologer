@@ -1,4 +1,4 @@
-package com.udacity.jdnd.course3.critter.user;
+package com.udacity.jdnd.course3.critter.user.entity;
 
 import com.udacity.jdnd.course3.critter.pet.Pet;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.udacity.jdnd.course3.critter.user;
+package com.udacity.jdnd.course3.critter.user.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,5 +22,6 @@ public class User {
     private long userId;
 
     @Nationalized
+    @Column(length = 512)
     private String name;
 }
