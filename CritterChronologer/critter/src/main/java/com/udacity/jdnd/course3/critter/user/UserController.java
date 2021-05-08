@@ -81,7 +81,7 @@ public class UserController {
         Employee employee = new Employee();
         BeanUtils.copyProperties(employeeDTO, employee);
         Long id = employeeService.save(employee);
-        employeeDTO.setId(employee.getUserId());
+        employeeDTO.setId(id);
         return employeeDTO;
     }
 
